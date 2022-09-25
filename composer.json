@@ -1,0 +1,19 @@
+{
+    "name": "user/my_app",
+    "description": "my first package",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "User\\MyApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tokey97",
+            "email": "kajdaspawel@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
